@@ -1,0 +1,469 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: whitesmoke;
+}
+#top{
+    height: 20vw;
+    width: 100%;
+    background:linear-gradient(to right,blue,skyblue) ;
+}
+#top h1{
+    text-align: center;
+    color: white;
+    padding-left: 15px;
+    padding-top: 30px;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 2vw;
+    display: flex;
+    justify-content: center;
+}
+
+
+.topme3 p{
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    text-align: center;
+}
+#topmebottom button{
+    background-color: white;
+    width: 200px;
+    height: 50px;
+    color: white;
+    
+    margin-left: 550px;
+    margin-top: 20px;
+    padding-bottom: 10px;
+}
+#topmebottom p{
+     color: black;
+     font-size: 13px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+#secondtop {
+    height: 13vw;
+    width: 100%;
+    background-color: whitesmoke;
+    color: black;
+    font-size: 15px;
+    font-weight: 700;
+    
+    padding-top: 20px;
+}
+#secondtop h2{
+    line-height: 25px;
+    text-align: center;
+}
+#secondtop p{
+    font-size: 15px;
+    text-align: center;
+}
+#thirdtop{
+    
+}
+#thirdtop img{
+
+width: 2vw;
+    height: 2vw;
+    
+}
+#thirdtop button{
+    background-color: white;
+    width: 100%;
+    height: 10vw;
+    padding-top: 60px;
+    border-radius: 10px;
+    margin: 10px 10px 10px 10px;
+}
+#fourthtop button{
+    background-color: white;
+    width: 100%;
+    height: 10vw;
+    padding-top: 60px;
+    border-radius: 10px;
+    margin: 10px 10px 10px 10px;
+}
+#fourthtop img{
+    width: 2vw;
+    height: 2vw;
+
+}
+#fifthtop button{
+    background-color: white;
+    width: 100%;
+    height: 10vw;
+    padding-top: 60px;
+    border-radius: 10px;
+    margin: 10px 10px 10px 10px;
+}
+#fifthtop img{
+    width: 50px;
+    height:30px;
+    
+}
+.departments {
+  padding: 40px 20px;
+  text-align: center;
+  background: #e9f3ff;
+}
+
+.departments .tags {
+  margin-top: 15px;
+}
+
+.tags span {
+  display: inline-block;
+  background-color: #d0e7ff;
+  color: #005bea;
+  padding: 8px 15px;
+  margin: 5px;
+  border-radius: 20px;
+  font-size: 14px;
+}
+
+#sixth{
+    width: 100%;
+    height: 80vw;
+    background-color: hwb(194 89% 5%);
+    padding-bottom:60px ;
+    margin-top: 40px;
+    padding: 40px 0;
+}
+#sixth h1{
+    
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+}
+
+#last{
+    height: 150vw;
+    width: 100%;
+    background-color: white;
+    padding: 35px 0;
+    text-align: center;
+}
+#last h1{
+    font-size: 20px;
+    font-weight: 600;
+
+}
+#lastmelast{
+    background-color: gainsboro;
+    
+    width: 100%;
+    height: 35vw;
+    margin-top: 10px 10px 0 10px;
+    padding: 10px 0 5px 10px;
+    border-radius: 10px;
+    margin-left: 10px;
+    margin-top: 20px;
+
+}
+#lastmelast h5{
+    
+    margin: 8px 0 2px 8px ;
+    padding-bottom: 5px;
+}
+#lastmelast input{
+    width: 350px;
+    height: 40px;
+    
+
+}
+#sher input{
+    
+    width: 350px;
+    height: 100px;
+    
+}
+#lastmelast a{
+    
+    
+    width: 100px;
+    height: 20px;
+    color: white;
+}
+#cheta{
+    padding-left: 20px;
+    padding-top:8px ;
+margin-top: 30px;
+margin-left: 500px;
+    width: 350px;
+    height: 50px;
+    background-color: blue;
+}
+#bottom{
+    width: 100%;
+    height: 20vw;
+    background-color: whitesmoke;
+}
+#bottommelast{
+
+    background-color: rgb(46, 45, 45);
+    height: 12vw;
+    width:100%;
+    margin-top: 10vw;
+    padding-right: 30px;
+}
+#bottommelast p{
+    color: white;
+    
+    font-size: 15px;
+    text-align: center;
+    
+}
+#bottommelast a{
+color:blue ;
+    text-align: center;
+    margin-left: 600px;
+}
+@media (max-width:600px) {
+    #main{
+    height: 100%;
+    width: 100%;
+    background-color: whitesmoke;
+}
+#top{
+    height: 60vw;
+    width: 100%;
+    background:linear-gradient(to right,blue,skyblue) ;
+}
+#top h1{
+    text-align: center;
+    color: white;
+    padding-left: 15px;
+    padding-top: 30px;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 2vw;
+    display: flex;
+    justify-content: center;
+}
+
+
+.topme3 p{
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    text-align: center;
+}
+#topmebottom button{
+    background-color: white;
+    width: 200px;
+    height: 50px;
+    color: white;
+    
+    margin-left: 90px;
+    margin-top: 20px;
+    padding-bottom: 10px;
+}
+#topmebottom p{
+     color: black;
+     font-size: 13px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+#secondtop {
+    height: 40vw;
+    width: 100%;
+    background-color: whitesmoke;
+    color: black;
+    font-size: 15px;
+    font-weight: 700;
+    
+    padding-top: 20px;
+}
+#secondtop h2{
+    line-height: 25px;
+    text-align: center;
+}
+#secondtop p{
+    font-size: 15px;
+    text-align: center;
+}
+#thirdtop{
+    
+}
+#thirdtop img{
+
+width: 8vw;
+    height: 8vw;
+    
+}
+#thirdtop button{
+    background-color: white;
+    width: 100%;
+    height: 40vw;
+    padding-top: 60px;
+    border-radius: 10px;
+    margin: 10px 10px 10px 10px;
+}
+#fourthtop button{
+    background-color: white;
+    width: 100%;
+    height: 40vw;
+    padding-top: 60px;
+    border-radius: 10px;
+    margin: 10px 10px 10px 10px;
+}
+#fourthtop img{
+    width: 8vw;
+    height: 8vw;
+
+}
+#fifthtop button{
+    background-color: white;
+    width: 100%;
+    height: 40vw;
+    padding-top: 60px;
+    border-radius: 10px;
+    margin: 10px 10px 10px 10px;
+}
+#fifthtop img{
+    width: 20vw;
+    height: 8vw;
+}
+.departments {
+  padding: 40px 20px;
+  text-align: center;
+  background: #e9f3ff;
+}
+
+.departments .tags {
+  margin-top: 15px;
+}
+
+.tags span {
+  display: inline-block;
+  background-color: #d0e7ff;
+  color: #005bea;
+  padding: 8px 15px;
+  margin: 5px;
+  border-radius: 20px;
+  font-size: 14px;
+}
+
+#sixth{
+    width: 100%;
+    height: 80vw;
+    background-color: hwb(194 89% 5%);
+    padding-bottom:60px ;
+    margin-top: 40px;
+    padding: 40px 0;
+}
+#sixth h1{
+    
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+}
+
+#last{
+    height: 150vw;
+    width: 100%;
+    background-color: white;
+    padding: 35px 0;
+    text-align: center;
+}
+#last h1{
+    font-size: 20px;
+    font-weight: 600;
+
+}
+#lastmelast{
+    background-color: gainsboro;
+    
+    width: 100%;
+    height: 120vw;
+    margin-top: 10px 10px 0 10px;
+    padding: 10px 0 5px 10px;
+    border-radius: 10px;
+    margin-left: 10px;
+    margin-top: 20px;
+
+}
+#lastmelast h5{
+    text-align: start;
+    margin: 8px 0 2px 8px ;
+    padding-bottom: 5px;
+}
+#lastmelast input{
+    width: 350px;
+    height: 40px;
+    text-align: start;
+}
+#sher input{
+    
+    width: 350px;
+    height: 100px;
+}
+#lastmelast a{
+    margin-top: 100px;
+    
+    width: 1000px;
+    height: 40px;
+    color: white;
+}
+#cheta{
+    
+margin-top: 30px;
+margin-left: 10px;
+    width: 350px;
+    height: 40px;
+    background-color: blue;
+}
+
+#bottom{
+    width: 100%;
+    height: 20vw;
+    background-color: whitesmoke;
+}
+#bottommelast{
+
+    background-color: rgb(46, 45, 45);
+    height: 20vw;
+    width:100%;
+    margin-top: 10vw;
+    padding-right: 30px;
+}
+#bottommelast p{
+    color: white;
+    
+    font-size: 15px;
+    text-align: center;
+    
+}
+#bottommelast a{
+color:blue ;
+    text-align: center;
+    margin-left: 100px;
+}
+
+    
+}
+
+
+
